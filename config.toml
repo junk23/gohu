@@ -1,0 +1,22 @@
+baseURL = "/"
+title = "HYK"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "精神存在" # title for frontpage, may include image
+copyright = "HYK"
+description = 'You are very good, and I like you.<br>我是宇宙中被命名为“CFBDSIR2149&quot;的小型行星，距离我最近的邻居天体也有一千多光年，周围除了气体和灰尘一无所有。<br/>只能独自在宇宙中漫无目的的闲逛，可能数十亿年都碰不到一颗恒星，甚至由于没有恒星的光照，这个地方只有寒冷、黑暗和孤独，而我将永远的在宇宙中流浪。'
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "主页"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "文章"
